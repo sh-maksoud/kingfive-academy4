@@ -86,3 +86,5 @@ function MiniQuiz({items}){
  return <div className="mini">{items.map((it,i)=><div className="mini-q" key={i}><p dir="ltr">{i+1}. {it[0]}</p><div className="mini-opts" dir="ltr">{it[1].map((o,j)=>{const picked=ans[i]!==undefined;return <button key={j} disabled={picked} onClick={()=>setAns(a=>({...a,[i]:j}))} className={`${picked&&j===it[2]?'correct':''} ${picked&&ans[i]===j&&j!==it[2]?'wrong':''}`}>{o}</button>})}</div>{ans[i]!==undefined&&<small className="mini-why">{ans[i]===it[2]?'✓ صحيح. ':'✗ الصحيح: '+it[1][it[2]]+'. '}{it[3]}</small>}</div>)}</div>
 }
 function speak(text){if(!('speechSynthesis'in window))return;const u=new SpeechSynthesisUtterance(text);u.lang='en-GB';window.speechSynthesis.cancel();window.speechSynthesis.speak(u)}
+
+
