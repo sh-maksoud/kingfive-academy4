@@ -1,0 +1,66 @@
+const Q=(u,skill,q,opts,a,why)=>({u,skill,q,opts,a,why});
+export const practice=[
+// Unit 1
+Q(1,'Interrupted Past','I was watching TV when my brother ____ home.',['comes','came','was coming','come'],1,'الفعل الطويل was watching مستمر، والحدث القصير came قطعه؛ لذلك نستخدم الماضي البسيط بعد when.'),
+Q(1,'Past Continuous','While we ____ dinner, the phone rang.',['had','were having','have','are having'],1,'الفعل المستمر مع we يأخذ were + V-ing.'),
+Q(1,'First Conditional','If you study hard, you ____ the exam.',['passed','pass','will pass','passing'],2,'الشرط الأول: If + present simple ثم will + المصدر.'),
+Q(1,'-ed / -ing','The film was very ____. I felt ____.',['bored / boring','boring / bored','boring / boring','bored / bored'],1,'الفيلم سبب الملل فيأخذ -ing، والشخص يشعر بالملل فيأخذ -ed.'),
+Q(1,'Past Simple','Did she ____ to school yesterday?',['went','go','goes','going'],1,'بعد did نستخدم المصدر go.'),
+Q(1,'Vocabulary','When a child shouts and cries because he is very angry, he has a ____.',['tantrum','courage','hug','link'],0,'tantrum تعني نوبة غضب.'),
+// Unit 2
+Q(2,'Reflexive Pronouns','Sara looked at ____ in the mirror.',['himself','herself','itself','themselves'],1,'الفاعل Sara مؤنث مفرد فنستخدم herself.'),
+Q(2,'Reflexive Pronouns','We made the model by ____.',['ourself','themselves','ourselves','myself'],2,'الفاعل we يأخذ ourselves.'),
+Q(2,'Comparatives','Mars is ____ than Earth.',['small','smaller','more small','smallest'],1,'صفة قصيرة نضيف لها -er قبل than.'),
+Q(2,'Comparatives','A space trip is ____ than a bus trip.',['expensiver','more expensive','most expensive','expensive'],1,'الصفة الطويلة expensive تأخذ more قبلها.'),
+Q(2,'Comparatives','This planet is ____ than that one. (good)',['gooder','more good','better','best'],2,'good من الصفات الشاذة: good → better.'),
+Q(2,'Vocabulary','A machine that travels in space and collects information is a space ____.',['probe','soil','tap','craft'],0,'space probe تعني مسبارًا فضائيًا.'),
+// Unit 3
+Q(3,'Present Perfect','Have you ever ____ a robot?',['see','saw','seen','seeing'],2,'المضارع التام: have/has + التصريف الثالث seen.'),
+Q(3,'Present Perfect','____ she ever visited London?',['Have','Has','Did','Is'],1,'she مع has في المضارع التام.'),
+Q(3,'Used to','I ____ play outside when I was young.',['use to','used to','am used','using to'],1,'العادة الماضية المثبتة: used to + المصدر.'),
+Q(3,'Used to','Did you ____ watch cartoons?',['used to','use to','using to','used'],1,'بعد did نستخدم use to بدون d.'),
+Q(3,'Vocabulary','To copy a file from the Internet to your device is to ____ it.',['upload','download','review','rehearse'],1,'download تعني ينزّل من الإنترنت.'),
+Q(3,'Present Perfect','No, I ____ never used a drone.',['has','have','did','am'],1,'I مع have: I have never used.'),
+// Unit 4
+Q(4,'Present Perfect adverbs','Have you finished your homework ____?',['already','yet','ever','just'],1,'yet تأتي غالبًا في نهاية السؤال.'),
+Q(4,'Present Perfect adverbs','I have ____ eaten, so I am not hungry.',['yet','already','never','ago'],1,'already تعني بالفعل، وتأتي قبل التصريف الثالث.'),
+Q(4,'Present Perfect adverbs','They haven’t called ____.',['already','ever','yet','just'],2,'مع النفي نستخدم yet.'),
+Q(4,'Present Perfect adverbs','He has ____ arrived. He is at the door now.',['just','yet','never','ever'],0,'just تعني منذ لحظات.'),
+Q(4,'Present Perfect adverbs','I have ____ been to Japan. It is my dream.',['already','never','yet','just'],1,'never تعني لم يحدث أبدًا.'),
+Q(4,'Vocabulary','The Japanese art of paper folding is called ____.',['origami','drama','vlog','blog'],0,'origami هو فن طي الورق.'),
+// Unit 5
+Q(5,'For / Since','I have lived here ____ 2021.',['for','since','ago','during'],1,'since تتبع نقطة بداية محددة؛ 2021 سنة بداية.'),
+Q(5,'For / Since','She has studied English ____ three years.',['since','for','ago','from'],1,'for تأتي مع مدة زمنية three years.'),
+Q(5,'How long','____ have you known him?',['How often','How long','How many','How far'],1,'للسؤال عن مدة الاستمرار نستخدم How long.'),
+Q(5,'Past Simple','The Egyptians ____ the pyramids thousands of years ago.',['build','built','have built','building'],1,'ago تدل على ماضٍ منتهٍ فنستخدم الماضي البسيط built.'),
+Q(5,'Past Simple','Howard Carter ____ the tomb in 1922.',['discovers','has discovered','discovered','discovering'],2,'مع تاريخ محدد نستخدم الماضي البسيط.'),
+Q(5,'Vocabulary','A person who studies ancient objects and places is an ____.',['archaeologist','astronaut','farmer','engineer'],0,'archaeologist = عالم آثار.'),
+// Unit 6
+Q(6,'Indefinite Pronouns','I didn’t see ____ at the farm.',['someone','anyone','everyone','no one'],1,'في النفي نستخدم anyone.'),
+Q(6,'Indefinite Pronouns','____ is ready for dinner.',['Everything','Anyone','Somewhere','Nobody are'],0,'Everything معناها كل شيء وتأخذ فعلًا مفردًا.'),
+Q(6,'Tag Questions','You are hungry, ____?',['are you','aren’t you','don’t you','do you'],1,'جملة مثبتة بـ are → ذيل منفي aren’t you.'),
+Q(6,'Tag Questions','She doesn’t eat meat, ____?',['doesn’t she','does she','is she','isn’t she'],1,'جملة منفية → ذيل مثبت does she.'),
+Q(6,'Tag Questions','They went home, ____?',['didn’t they','did they','weren’t they','don’t they'],0,'الماضي البسيط المثبت → didn’t they.'),
+Q(6,'Vocabulary','Food that is grown without chemicals is called ____ food.',['organic','fast','frozen','sweet'],0,'organic = عضوي.'),
+// Unit 7
+Q(7,'Before / After','Wash your hands ____ you eat.',['before','after','so','but'],0,'نغسل اليدين قبل الأكل: before.'),
+Q(7,'Before / After','____ the rain stopped, we went outside.',['Before','After','Because','If'],1,'ذهبنا بعد توقف المطر: After.'),
+Q(7,'As / When','____ I was walking, I saw Ali.',['As','But','Unless','Or'],0,'As تعني بينما وتعبر عن حدثين متزامنين.'),
+Q(7,'Had to','We ____ to save water last summer.',['have','had','has','will'],1,'had to للتعبير عن الضرورة في الماضي.'),
+Q(7,'Had to','Did she ____ to study yesterday?',['had','have','has','having'],1,'بعد did نستخدم have to.'),
+Q(7,'Vocabulary','A long period with no rain is a ____.',['flood','drought','tap','river'],1,'drought = جفاف.'),
+// Unit 8
+Q(8,'Gerund / Infinitive','I enjoy ____ puzzles.',['solve','to solve','solving','solved'],2,'enjoy تُتبع بـ V-ing.'),
+Q(8,'Gerund / Infinitive','She decided ____ harder.',['studying','to study','study','studied'],1,'decide تُتبع بـ to + مصدر.'),
+Q(8,'Gerund / Infinitive','They finished ____ their homework.',['to do','doing','do','done'],1,'finish تُتبع بـ V-ing.'),
+Q(8,'Gerund / Infinitive','We hope ____ the prize.',['winning','to win','win','won'],1,'hope تُتبع بـ to + مصدر.'),
+Q(8,'Vocabulary','To find the total of numbers is to ____.',['calculate','pout','harvest','launch'],0,'calculate = يحسب.'),
+Q(8,'Vocabulary','The middle value of a set of scores is often called the ____.',['average','surface','pollution','crop'],0,'average = متوسط.'),
+// Unit 9
+Q(9,'Quantifiers','There isn’t ____ milk in the fridge.',['many','a few','much','few'],2,'milk غير معدود، لذلك نستخدم much في النفي.'),
+Q(9,'Quantifiers','There are ____ trees in the park.',['much','a little','many','an'],2,'trees معدود جمع فنستخدم many.'),
+Q(9,'Quantifiers','I have ____ coins in my pocket. (two or three)',['a few','a little','much','any'],0,'a few مع المعدود الجمع.'),
+Q(9,'Relative Pronouns','The boy ____ won the prize is my cousin.',['which','who','where','whose'],1,'who تستخدم للحديث عن الأشخاص.'),
+Q(9,'Relative Pronouns','This is the house ____ I was born.',['who','which','where','whose'],2,'where تستخدم للمكان.'),
+Q(9,'Vocabulary','An animal in danger of disappearing completely is ____.',['endangered','organic','average','strict'],0,'endangered = مهدد بالانقراض.'),
+];

@@ -1,0 +1,11 @@
+import { chapters as ch } from './story';
+import { poems as ps } from './poetry';
+import { practice as pa } from './practice';
+import { practice2 } from './practice2';
+import { practice3 } from './practice3';
+import { reading, stanzas } from './reading';
+export { units } from './units';
+export { resources } from './resources';
+export const chapters = ch.map((c,i)=>({...c, read:reading[i]}));
+export const poems = ps.map((p,i)=>({...p, stanzas:stanzas[i]}));
+export const practice = [...pa, ...practice2, ...practice3];
